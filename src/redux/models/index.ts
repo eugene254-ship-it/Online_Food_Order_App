@@ -1,4 +1,4 @@
-import { Address } from 'expo-location'
+import { location } from 'expo-location'
 
 
 // category
@@ -50,7 +50,7 @@ export interface UserModel{
  
 export interface UserState{
     user: UserModel;
-    location: Address;
+    location: location;
     error: string | undefined;
     Cart: [FoodModel];
      //orders
