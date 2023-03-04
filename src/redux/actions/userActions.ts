@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Address } from 'expo-location'
 import { Dispatch } from 'react'
 import { BASE_URL } from '../../utils'
-import AsyncStorage from '@react-native-community/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import { FoodModel } from '../models'
 
 
